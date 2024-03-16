@@ -1,0 +1,43 @@
+Create Database:
+CREATE DATABASE Analyst_Salary;
+
+Create Table 1:
+Create Table EmployeeDemographics 
+(EmployeeID int, 
+FirstName varchar(30), 	
+LastName varchar(30), 
+Age int, 
+Gender varchar(30)
+)
+
+Create Table 2:
+Create Table EmployeeSalary 
+(EmployeeID int, 
+JobTitle varchar(30), 
+Salary int
+)
+
+Insert into Table 1:
+Insert into EmployeeDemographics VALUES
+(20241001, 'Roner', 'Santiago', 34, 'Male'),
+(20241002, 'Ana', 'Mercado', 32, 'Female'),
+(20241003, 'Gino', 'Yu', 28, 'Male'),
+(20241004, 'Kris', 'Lee', 27, 'Female'),
+(20241005, 'Cha', 'Domingo', 29, 'Male'),
+(20241006, 'Mark', 'Torres', 31, 'Male'),
+(20241007, 'Cristy', 'Sy', 30, 'Female'),
+(20241008, 'Matt', 'Gabatino', 32, 'Male'),
+(20241009, 'Jani', 'Francisco', 28, 'Male')
+
+Insert into Table 2:
+Insert Into EmployeeSalary VALUES
+(20241001, 'Business Analyst', 400000),
+(20241002, 'Fraud Analyst', 480000),
+(20241003, ' Financial Analyst ', 500000),
+(20241004, 'Research Analyst', 350000),
+(20241005, 'Human Resources Analyst', 300000),
+(20241006, 'Social Media Analyst', 300000),
+(20241007, 'Quality Assurance Analyst', 350000),
+(20241008, 'Healthcare Data Analyst', 400000),
+(20241009, 'Marketing Analyst', 320000)
+
